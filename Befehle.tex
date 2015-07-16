@@ -1,0 +1,42 @@
+\newcommand{\Titelzeile}[3]{
+\centering
+\begin{tabularx}{\textwidth}{lrX}
+\multirow{4}{10cm}{\includegraphics{Bilder/IHK.jpg}}
+	& Name: & \Name \\\cline{3-3}
+    & Abteilung: & \Abteilung \\\cline{3-3}
+    & Monat: & #1 \\\cline{3-3}
+    & Ausbildungsjahr: & #2 \\\cline{3-3}
+    \hline
+\end{tabularx}
+
+\begin{flushleft}
+\huge Ausbildungsnachweis Nr. \underline #3
+\end{flushleft}
+}
+
+\newcommand{\Unterschrift}{
+\vspace{\fill}
+\begin{tabularx}{\textwidth}{|p{0.001cm} X p{0.001cm} p{6.3cm} p{0.001cm}|p{0.001cm} X p{0.001cm} p{6.3cm} p{0.001cm}|}
+\hline
+& & & & & & & & & \\
+& & & & & & & & & \\\cline{2-2} \cline{4-4} \cline{7-7} \cline{9-9}
+& Datum & & Unterschrift des/der Auszubildenden und ggfs. des/der gesetzlichen/r Vertreters/in & & & Datum & & Unterschrift des/der Ausbildenden bzw. Ausbilders/in &\\
+\hline
+\end{tabularx}}
+
+\newcommand{\Monat}[1]{
+\begin{center}
+\begin{tabularx}{\textwidth}{|p{2cm}|X|}
+\hline
+\bf Wochen & \bf Tätigkeit und Stoff der Unterweisung\\
+\hline
+#1
+\end{tabularx}
+\end{center}
+}
+
+\newcommand{\Woche}[2]{
+#1. Woche &
+#2\\
+\hline
+}

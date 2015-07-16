@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Thu Feb 27 09:18:59 CET 2014
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=Berichtsheft.tex
+outputFile=Berichtsheft.pdf
+langSpell=en
+markDer=true
+srcDir=
